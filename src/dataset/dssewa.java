@@ -12,14 +12,14 @@ import java.util.ArrayList;
  */
 public class dssewa {
     private ArrayList<String> id_sewa;
-    private ArrayList<String> id_mobil;
+    private ArrayList<String> id_mbl;
     private ArrayList<String> lama;
     private ArrayList<Integer> bayar;
     private ArrayList<Integer> kembalian;
     
     public dssewa(){
     id_sewa = new ArrayList<>();
-    id_mobil = new ArrayList<>();
+    id_mbl = new ArrayList<>();
     lama = new ArrayList<>();
     bayar = new ArrayList<>();
     kembalian = new ArrayList<>();
@@ -31,12 +31,12 @@ public class dssewa {
     public ArrayList<String> getDataId_sewa(){
         return this.id_sewa;
     }
-    public void addId_mobil(String value){
-        this.id_mobil.add(value);
+    public void addId_mbl(String value){
+        this.id_mbl.add(value);
     }
     
-    public ArrayList<String> getId_mobil(){
-        return this.id_mobil;
+    public ArrayList<String> getId_mbl(){
+        return this.id_mbl;
     }
     public void addLama(String value){
         this.lama.add(value);

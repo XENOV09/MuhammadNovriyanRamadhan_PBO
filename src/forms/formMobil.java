@@ -11,7 +11,6 @@ import javax.swing.JOptionPane;
  */
 public class formMobil extends javax.swing.JFrame {
     dsmobil mobil;
-
     /**
      * Creates new form formMobil
      */
@@ -216,7 +215,7 @@ public class formMobil extends javax.swing.JFrame {
                           "\nMerek : "+mobil.getDataMerek_mbl().get(i)+
                           "\nPlat :"+mobil.getDataPlat_mbl().get(i)+
                           "\nSewa/Hari : "+mobil.getDataHarga_sewa().get(i);
-                    JOptionPane.showMessageDialog(this, pesan);
+                    JOptionPane.showMessageDialog(this, pesan); 
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
