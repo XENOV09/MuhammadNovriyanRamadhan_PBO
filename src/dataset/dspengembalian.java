@@ -13,11 +13,14 @@ import java.util.ArrayList;
 public class dspengembalian {
     private ArrayList<String> id_kembali;
     private ArrayList<String> id_sewa;
+    private ArrayList<String> id_pelanggan;
+
 
     public dspengembalian() {
         id_kembali= new ArrayList<>();
         id_sewa= new ArrayList<>();
-}
+        id_pelanggan= new ArrayList<>();
+    }
     public void addId_kembali(String value){
         this.id_kembali.add(value);
     }
@@ -31,6 +34,13 @@ public class dspengembalian {
     
     public ArrayList<String> getDataId_sewa(){
         return this.id_sewa;
+    }
+    public void addId_pelanggan(String value){
+        this.id_pelanggan.add(value);
+    }
+    
+    public ArrayList<String> getDataId_pelanggan(){
+        return this.id_pelanggan;        
 }
 
 }
